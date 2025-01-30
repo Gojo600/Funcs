@@ -3,9 +3,9 @@ getgenv().IS_SALAD_LOADED = false
 local oldr = request 
 getgenv().request = function(options)
 	if options.Headers then
-		options.Headers["User-Agent"] = "WaterFall/RobloxApp/2.0"
+		options.Headers["User-Agent"] = "Winaz/RobloxApp/1.4"
 	else
-		options.Headers = {["User-Agent"] = "WaterFall/RobloxApp/2.0"}
+		options.Headers = {["User-Agent"] = "Winaz/RobloxApp/1.4"}
 	end
 	local response = oldr(options)
 	return response
